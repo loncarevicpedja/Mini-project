@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo_nav{
+    height: 60px;
+}
+.pozadina{
+    background-image: url("./aa.jpg");
+    height: 90vh;
+    background-position: 61% 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pozadina p{
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+}
+.tekst{
+    padding: 30px;
+}
+.tri_slike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.prva p{
+    text-align: center;
+}
+.druga p{
+    text-align: center;
+}
+.treca p{
+    text-align: center;
+}
+.prva{
+    width: 400px;
+    height: 300px;
+}
+.prva img{
+    width: 100%;
+    height: 100%;
+}
+.druga img{
+    width: 100%;
+    height: 100%;
+}
+.treca img{
+    width: 100%;
+    height: 100%;
+}
+.druga{
+    
+    width: 400px;
+    height: 300px;
+}
+.treca{
+    
+    width: 400px;
+    height: 300px;
+}
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lokacija{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+@media only screen and (max-width:800px){
+    .pozadina p{
+        font-size: 60px;
+    }
+    .tri_slike{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .divFooter{
+        flex-direction: column;
+    }
+}
+

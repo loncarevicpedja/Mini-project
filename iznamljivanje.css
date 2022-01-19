@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo_nav{
+    height: 60px;
+}
+.content{
+    background-image: url("./bb.jpg");
+    background-position: 61% 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.pozadina p{
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.pozadina h2{
+    color: white;
+}
+.tekst{
+    padding: 30px;
+}
+.cenovnik
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.prvi{
+    display: flex;
+    flex-direction: row;
+}
+.slika_prvi{
+    width: 400px;
+    height: 300px;
+}
+.slika_prvi img{
+    height: 100%;
+    width: 100%;
+}
+.tabela_prvi{
+    width: 400px;
+    background-color: white;
+}
+.drugi{
+    display: flex;
+    flex-direction: row;
+}
+.slika_drugi{
+    width: 400px;
+    height: 300px;
+}
+.slika_drugi img{
+    height: 100%;
+    width: 100%;
+}
+.tabela_drugi{
+    width: 400px;
+    background-color: white;
+}
+.treci{
+    display: flex;
+    flex-direction: row;
+}
+.slika_treci{
+    width: 400px;
+    height: 300px;
+}
+.slika_treci img{
+    height: 100%;
+    width: 100%;
+}
+.tabela_treci{
+    width: 400px;
+    background-color: white;
+}
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lokacija{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+@media only screen and (max-width:850px){
+    .pozadina p{
+        font-size: 70px;
+    }
+    .pozadina h2{
+        padding: 10px;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:500px){
+    .pozadina p{
+        font-size: 50px;
+    }
+    .prvi{
+        flex-direction: column;
+    }
+    .drugi{
+        flex-direction: column;
+    }
+    .treci{
+        flex-direction: column;
+    }
+    
+    .divFooter{
+        flex-direction: column;
+    }
+       
+}

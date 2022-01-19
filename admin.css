@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo_nav{
+    height: 60px;
+}
+.content{
+    background-image: url("./aa.jpg");
+    background-position: 61% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.pozadina p{
+    font-size: 100px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.pozadina h2{
+    color: white;
+}
+.tekst{
+    padding: 30px;
+}
+.cenovnik
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 92%;  
+}
+  th, td {
+   border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+  th {
+  background-color:black;
+  color:white;
+  text-align:center;
+}
+  td {
+      background-color: white;
+      height:25px;
+}
+.divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lokacija{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telefon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+.Dugme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Dugme1 button{
+    height: 70px;
+    width: 100px;
+}
+@media only screen and (max-width:850px){
+    .pozadina p{
+        font-size: 70px;
+    }
+    .pozadina h2{
+        padding: 10px;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:500px){
+    .pozadina p{
+        font-size: 30px;
+    }
+    
+    .divFooter{
+        flex-direction: column;
+    }
+       
+}
